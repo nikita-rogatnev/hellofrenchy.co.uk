@@ -1,6 +1,6 @@
-/** {*/
-/*    outline: 1px dashed lightgray;*/
-/*}*/
+* {
+    outline: 1px dashed lightgray;
+}
 
 html {
     box-sizing: border-box;
@@ -30,6 +30,7 @@ body {
 h1 {
     display: inline;
     font-size: 20px;
+    line-height: 1.2;
     margin: 0;
 }
 
@@ -52,6 +53,24 @@ a:active {
     font-size: 20px;
 }
 
+.typed-cursor {
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     h1 {
         font-size: 40px;
@@ -65,11 +84,11 @@ a:active {
 
 @media only screen and (min-width: 1200px) {
     h1 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .container {
         max-width: 1000px;
-        font-size: 60px;
+        font-size: 55px;
     }
 }
