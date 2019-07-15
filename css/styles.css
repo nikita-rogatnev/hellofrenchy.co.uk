@@ -18,7 +18,7 @@ body {
 body {
     font-family: "Heebo", Arial, sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.2;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ a:active {
     width: 100%;
     max-width: 100%;
     padding: 0 40px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .typed-cursor {
