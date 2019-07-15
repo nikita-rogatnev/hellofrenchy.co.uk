@@ -1,0 +1,75 @@
+/** {*/
+/*    outline: 1px dashed lightgray;*/
+/*}*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: "Heebo", Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    display: inline;
+    font-size: 20px;
+    margin: 0;
+}
+
+a,
+a:visited {
+    color: #ff0000;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        max-width: 640px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .container {
+        max-width: 1000px;
+        font-size: 60px;
+    }
+}
