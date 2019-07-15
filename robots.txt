@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://hellofrenchy.co.uk/sitemap.xml
